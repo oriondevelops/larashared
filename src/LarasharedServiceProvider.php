@@ -27,7 +27,7 @@ class LarasharedServiceProvider extends PackageServiceProvider
                         $installCommand->call('larashared:token');
                         $installCommand->info('Thank you very much for installing this package!');
                     })
-                    ->askToStarRepoOnGitHub('oriononairdev/larashared');
+                    ->askToStarRepoOnGitHub('oriondevelops/larashared');
             });
     }
 }

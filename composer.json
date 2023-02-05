@@ -1,12 +1,13 @@
 {
-    "name": "oriononairdev/larashared",
-    "description": "Helper api in shared hosting environments.",
+    "name": "oriondevelops/larashared",
+    "description": "Shared Hosting Deployment Management for Laravel",
     "keywords": [
-        "oriononairdev",
+        "oriondevelops",
         "laravel",
-        "larashared"
+        "larashared",
+        "shared-hosting"
     ],
-    "homepage": "https://github.com/oriononairdev/larashared",
+    "homepage": "https://github.com/oriondevelops/larashared",
     "license": "MIT",
     "authors": [
         {

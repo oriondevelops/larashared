@@ -10,11 +10,11 @@ class ResponseController extends Controller
     /**
      * Return success response.
      *
-     * @param $result
+     * @param  string  $result
      * @param $message
      * @return JsonResponse
      */
-    public function sendSuccess($result, $message): JsonResponse
+    public function sendSuccess(string $result, $message): JsonResponse
     {
         $response = [
             'success' => true,
@@ -28,12 +28,12 @@ class ResponseController extends Controller
     /**
      * Return error response.
      *
-     * @param $error
+     * @param  string  $error
      * @param  array  $errorMessages
      * @param  int  $code
      * @return JsonResponse
      */
-    public function sendError($error, array $errorMessages = [], int $code = 404): JsonResponse
+    public function sendError(string $error, array $errorMessages = [], int $code = 404): JsonResponse
     {
         $response = [
             'success' => false,

@@ -1,23 +1,26 @@
 ![Larashared](larashared.png)
 
 ---
-
 # Larashared
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/oriononairdev/larashared.svg?style=flat-square)](https://packagist.org/packages/oriononairdev/larashared)
-[![Total Downloads](https://img.shields.io/packagist/dt/oriononairdev/larashared.svg?style=flat-square)](https://packagist.org/packages/oriononairdev/larashared)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/oriondevelops/larashared.svg?style=flat-square)](https://packagist.org/packages/oriondevelops/larashared)
+[![Total Downloads](https://img.shields.io/packagist/dt/oriondevelops/larashared.svg?style=flat-square)](https://packagist.org/packages/oriondevelops/larashared)
 
-Larashared aims to be a guide and a helper api in shared hosting environments where ssh access is not available.
+#### Shared Hosting Deployment Management for Laravel
+
+Larashared is a deployment guide and a helper api in shared hosting environments where ssh access is not available.
+
+It allows using basic Artisan commands through an API by sending post requests with a bearer token for authorization. The package can be installed via composer and the configuration file can be published to modify the API path and the token. The package has several endpoints for different Artisan commands like optimizing, enabling/disabling maintenance mode, cache operations, etc.
 
 ## Disclaimer
 
-Deploying laravel on shared hosting is not recommended. Check out this article by Pardeep Kumar:
+Deploying Laravel on shared hosting is not recommended. Check out this article by Pardeep Kumar:
 
 [Here’s Why You Should Stay Away From Laravel Shared Hosting](https://www.cloudways.com/blog/stay-away-from-laravel-shared-hosting/)
 
 ## Support me
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/oriononairdev)  
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/oriondevelops)  
 or send your love & energy <3
 
 ## Installation
@@ -25,7 +28,7 @@ or send your love & energy <3
 You can install the package via composer:
 
 ```bash
-composer require oriononairdev/larashared
+composer require oriondevelops/larashared
 ```
 
 You can publish the config file with:
@@ -199,7 +202,7 @@ If you plan to seed your application, make sure dev dependencies like `fakerphp/
 
 ## Credits
 
-- [Mücahit Uğur](https://github.com/oriononairdev)
+- [Mücahit Uğur](https://mucahitugur.com)
 
 ## License
 
